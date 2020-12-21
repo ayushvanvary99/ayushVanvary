@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-  onload=function(){setTimeout(function(){document.body.style.backgroundColor="#"+Math.round(Math.random()*16777215).toString(16);},5000);};
-</script>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="landing.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Thank you</title
 
   </head>
+    <body>
+      <h2>(f) Write a JavaScript program to display information box as soon as page loads.<h2>
+        <h1 id="demo"></h1>
+           <button id="bt" onclick="myFunction()">Click Here</button>
+
   <h2>(g) Write a JavaScript program to change background color after 5 seconds of page load</h2>
-  <h1>You have Registered Succesfully</h1>
-  <h2>We'll reach out to you soon!</h2>
+
   <div class="container">
   <div class="center">
      <a href="https://ayushvanvary99.github.io/ayushVanvary/Assignment2WD/lastpage"><button id="button">Continue</button></a></button>
    </div>
    </div>
-  <body>
+
+   <script type="text/javascript">
+
+   onload=function(){setTimeout(function(){document.body.style.backgroundColor="#"+Math.round(Math.random()*16777215).toString(16);},5000);};
+   function myFunction() {
+   var person = prompt("Please enter your name", "XYZ ABC");
+   if (person != null) {
+     document.getElementById("demo").innerHTML = "Hello " + person + " You have Registered Succesfully";
+   }
+ }
+ </script>
 
   </body>
 </html>

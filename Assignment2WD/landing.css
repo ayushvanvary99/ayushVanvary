@@ -52,3 +52,19 @@ box-sizing: border-box;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 }
+#bt{
+  display: block;
+  width:150px;
+  margin:10px auto;
+  padding:7px 13px;
+  text-align:center;
+  background:purple;
+  font-size:20px;
+  font-family: 'Arial', sans-serif;
+  color:#ffffff;
+  white-space: nowrap;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+}

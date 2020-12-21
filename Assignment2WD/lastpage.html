@@ -2,40 +2,36 @@
 <html>
 
 <head>
-  <meta charset='utf-8'>
-  <style>
-    body {
-      font: 400 16px/1.4 'serif';
-      }
-    #editor1 {
-      border: 3px inset grey;
-      height: 100px;
-      width: 381px;
-      margin: 10px auto 0;
-     }
-    fieldset {
-      margin: 2px auto 15px;
-      width: 358px;
-    }
-    button {
-      width: 5ex;
-      text-align: center;
-      padding: 1px 3px;
+  <style media="screen">
+    #id{
+  font-style: italic;
+}
     }
   </style>
-</head>
-<body>
+  <script type = "text/javascript">
 
-  <div id="editor1" contenteditable="true">
-     The quick brown fox jumped over the lazy dog.
-  </div>
-  <fieldset>
-    <button class="fontStyle" onclick="document.execCommand('italic',false,null);" title="Italicize Highlighted Text"><i>I</i>
-    </button>
-    <button class="fontStyle" onclick="document.execCommand( 'bold',false,null);" title="Bold Highlighted Text"><b>B</b>
-    </button>
-    <button class="fontStyle" onclick="document.execCommand( 'underline',false,null);"><u>U</u>
-    </button>
-  </fieldset>
+            function Redirect() {
+               window.location = "https://ayushvanvary99.github.io/ayushVanvary/Assignment2WD/index";
+            }
+
+      </script>
+
+</head>
+
+  <body>
+        <p>Click the following button, you will be redirected to home page.</p>
+                <p id ="PI"><i>MasterMSind</i></p>
+        <button id="bt" onclick="myFunction1();">Click Here</button>
+
+        <form>
+           <input type = "button" value = "Redirect Me" onclick = "Redirect();" />
+        </form>
+        <script>
+        function myFunction1() {
+
+
+          document.getElementById("PI").innerHTML= ;
+}
+        </script>
   </body>
 </html>
